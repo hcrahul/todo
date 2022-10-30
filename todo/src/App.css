@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Poppins:wght@200;300;400;500&display=swap');
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px;
+}
+
+.todo-header{
+  width: 320px;
+  height: 60px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: #4649FF;
+}
+
+.todo-header span{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  display: flex;
+  line-height: 60px;
+  justify-content: center;
+}
+
+.todo-container{
+  width: 310px;
+  height: 50px;
+  margin-top: 5px;
+  border-color: #4649FF;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-style: solid;
+  padding: 5px;
+}
+
+.todo-item{
+  
+}
