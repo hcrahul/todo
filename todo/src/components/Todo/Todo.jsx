@@ -1,5 +1,5 @@
 import React from 'react'
-import {IoMdDoneAll} from 'react-icons/io'
+import {IoMdDoneAll, IoMdClose} from 'react-icons/io'
 
 export default function Todo() {
   return (
@@ -8,7 +8,10 @@ export default function Todo() {
           My Startup ideas
         </div>
         <div className="done-bt-container">
-          <IoMdDoneAll color='#1D1CE5'/>
+          <IoMdDoneAll color='#0c10ff'/>
+        </div>
+        <div className="delete-bt-container">
+          <IoMdClose color='#0c10ff'/>
         </div>
     </div>
   )

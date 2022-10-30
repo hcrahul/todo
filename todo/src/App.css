@@ -61,5 +61,17 @@
   border-radius: 4px;
   position: absolute;
   right: 45px;
-  background-color: rgb(44, 161, 44);
+  /* background-color: rgb(44, 161, 44); */
+}
+.todo-item .delete-bt-container{
+  width: 35px;
+  height: 25px;
+  background-color: rgb(248, 121, 93);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0c10ff;
+  position: absolute;
+  right: 5px;
 }
