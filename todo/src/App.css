@@ -36,5 +36,14 @@
 }
 
 .todo-item{
-  
+  width: 100%;
+  height: 35px;
+  background-color: #cccdff;
+}
+
+.todo-item .title{
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #0c10ff;
 }
